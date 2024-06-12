@@ -4,9 +4,9 @@ import buttonStyle from './Button.module.css';
 const Button = () => {
     return (
         <>
-            <div className={buttonStyle.btn}>
+            <button className={buttonStyle.btn}>
                 Leggi di più
-            </div>
+            </button>
         </>
     );
 }
