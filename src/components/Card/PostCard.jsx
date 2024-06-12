@@ -1,6 +1,6 @@
-// Importo lo style della card
-import Button from '../Button/Button';
+// Importo lo style della card ed il button
 import postCardStyle from './PostCard.module.css';
+import Button from '../Button/Button';
 
 const PostCard = () => {
     return (
@@ -8,11 +8,14 @@ const PostCard = () => {
             <div className={postCardStyle.card}>
                 <div className={postCardStyle.image}></div>
                 <div className={postCardStyle.bottom}>
-                    <h3>Titolo del Post</h3>
+                    <h3>Napoli. Effetto Conte: boom di trapianti di capelli in città</h3>
                     <p className={postCardStyle.paragraph}>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vitae dolorum explicabo aperiam cumque sequi tempora recusandae quaerat! Incidunt assumenda praesentium dicta reiciendis temporibus eaque, sunt atque numquam est aliquam!
+                        Conte ha dichiarato: "Sono qui per rivoluzionare il calcio napoletano. Scordatevi il gioco offensivo, da oggi si gioca tutti dietro la linea del pallone, compreso il magazziniere".
                     </p>
-                    <Button />
+                    <div className={postCardStyle.flexAuthor}>
+                        <Button />
+                        <author className={postCardStyle.author}>Fernando Verderame</author>
+                    </div>
                 </div>
             </div>
         </>

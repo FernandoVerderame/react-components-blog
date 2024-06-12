@@ -1,11 +1,20 @@
 .card {
     width: 600px;
     border-radius: 10px;
+    box-shadow: 3px 20px 62px -25px #000;
+    transition: all 0.3s linear;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
 
 .image {
     height: 400px;
-    background-color: #CCCCCC;
+    background-image: url('../../assets/images/conte.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -19,4 +28,16 @@
 
 .paragraph {
     margin: 15px 0;
+}
+
+.flexAuthor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author {
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
 }
