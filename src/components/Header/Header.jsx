@@ -1,11 +1,13 @@
 // Importo lo style dell'header
 import headerStyle from './Header.module.css';
+import logoImage from '../../assets/images/logo.png';
 
 const Header = () => {
     return (
         <>
             <header className={headerStyle.headerSec}>
-                <h1>Il mio blog</h1>
+                <img src={logoImage} alt="logo-image" className={headerStyle.logo} />
+                <h1>Lercio</h1>
             </header>
         </>
     );
