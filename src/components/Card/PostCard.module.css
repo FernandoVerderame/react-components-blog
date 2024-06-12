@@ -1,0 +1,22 @@
+.card {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.image {
+    height: 400px;
+    background-color: #CCCCCC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom {
+    padding: 20px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.paragraph {
+    margin: 15px 0;
+}
