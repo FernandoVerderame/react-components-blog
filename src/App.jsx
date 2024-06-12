@@ -1,9 +1,16 @@
+// Importo il Main
+import Header from "./components/Header/Header.jsx";
+import Main from "./components/Main/Main.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+
 const App = () => {
     return (
         <>
-            <h1>Blog React</h1>
+            <Header />
+            <Main />
+            <Footer />
         </>
-    )
+    );
 }
 
-export default App
+export default App;
