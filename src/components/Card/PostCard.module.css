@@ -13,10 +13,6 @@
 .image {
     position: relative;
     height: 400px;
-    /* background-image: url('../../assets/images/conte.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
