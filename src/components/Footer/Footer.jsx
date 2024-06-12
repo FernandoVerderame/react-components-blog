@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className={footerStyle.footerSec}>
                 <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maxime optio esse. Vero non expedita quisquam esse, at voluptatum reprehenderit commodi odio iure eius cum officiis voluptas mollitia voluptates eveniet.
+                    Tutti gli articoli contenuti in questo Sito sono falsi (almeno finché non si avverano) e sono stati redatti a scopo esclusivamente umoristico.
                 </div>
             </footer>
         </>
