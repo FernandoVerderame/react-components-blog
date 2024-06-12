@@ -10,6 +10,7 @@ const PostCard = ({ p }) => {
                 {/* Post Image */}
                 <div className={postCardStyle.image}>
                     <img src={p.image} alt={p.title} className={postCardStyle.img} />
+                    <div className={postCardStyle.badge}>{p.category}</div>
                 </div>
                 <div className={postCardStyle.bottom}>
                     {/* Post Title */}
