@@ -18,7 +18,7 @@ const posts = [
         title: "Telespettatore afferma di aver visto una pubblicità senza Jannik Sinner",
         image: "src/assets/images/sinner.jpg",
         content: "Un evento straordinario ha scosso il mondo della televisione: un telespettatore giura di aver visto una pubblicità senza Jannik Sinner. \"Non ci potevo credere\", ha detto, \"Pensavo fosse uno scherzo\".",
-        author: "Marco Lanci"
+        author: "Marco Lancellotti"
     }
 ];
 
